@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(67, 65, 65);
+    text-decoration: none;
+}
+
+.promo {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #383737;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    
+}
+
+.product img {
+    width: 20px;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.hidden {
+    display: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* Basic button styling */
+#menuButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Menu Styling */
+.menu {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide the menu initially */
+.hidden {
+    display: none;
+}
+
+/* Menu Links */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Search Bar */
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
